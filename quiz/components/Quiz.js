@@ -137,13 +137,14 @@ export default function Quiz(props){
                 <Text style={styles.text}>Score:{score}</Text>
                 <Game quiz={quizzes[currentQuiz]} numquiz={currentQuiz}/>
             </View>
+                <TouchableHighlight onPress={anterior} style={styles.boton}>
+                    <Text style={{color:'white'}}>Anterior</Text>
+                </TouchableHighlight>
                 <View style={styles.botonera}>
                 <TouchableHighlight onPress={siguiente} style={styles.boton}>
                     <Text style={{color:'white'}}>Siguiente</Text>
                 </TouchableHighlight>
-                <TouchableHighlight onPress={anterior} style={styles.boton}>
-                    <Text style={{color:'white'}}>Anterior</Text>
-                </TouchableHighlight>
+                
                 </View>
                 <View style={styles.botonera}>
 
