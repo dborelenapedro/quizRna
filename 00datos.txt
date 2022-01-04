@@ -1,0 +1,7 @@
+Elena del Junco Sampol
+Pedro Llorente Flores
+iOS 
+Se ha implementado el quiz, la navegación y los botones de 
+asyncstorage. Además al pulsar enter pasa a la siguiente pregunta
+tras comprobar el resultado. Hemos hecho varios flexbox en los estilos.
+
